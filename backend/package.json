@@ -1,0 +1,19 @@
+{
+  "name": "tracker-backend",
+  "version": "1.0.0",
+  "description": "GPRS GPS tracker backend (NodeJS + Firebase Realtime Database)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "retention": "node src/jobs/retention.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.5.0",
+    "morgan": "^1.10.0"
+  }
+}
